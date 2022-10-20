@@ -1,15 +1,15 @@
 {
-  "name": "node-html-to-image",
-  "version": "3.2.4",
+  "name": "template-exporter",
+  "version": "0.0.1",
   "description": "A Node.js library that generates images from HTML",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "git@github.com:frinyvonnick/node-html-to-image.git",
-  "author": "FRIN Yvonnick <frin.yvonnick@gmail.com>",
+  "repository": "git@github.com:jiangzm/template-exporter.git",
+  "author": "jiangzm <denny.jzm@gmail.com>",
   "license": "Apache-2.0",
   "dependencies": {
     "handlebars": "^4.5.3",
-    "puppeteer": "^15.3.0",
+    "puppeteer": "^15.5.0",
     "puppeteer-cluster": "^0.23.0"
   },
   "scripts": {
@@ -36,7 +36,7 @@
     "gitmoji-changelog": "2.3.0",
     "jest": "^28.1.2",
     "jest-circus": "^28.1.2",
-    "puppeteer-core": "^15.3.0",
+    "puppeteer-core": "^15.5.0",
     "rimraf": "^3.0.2",
     "tesseract.js": "^2.1.5",
     "typescript": "^4.7.4"

@@ -1,7 +1,7 @@
-import { nodeHtmlToImage } from "./main";
+import { nodeHtmlToImage } from "../src/main";
 import { Cluster } from "puppeteer-cluster";
 
-import { Screenshot } from "./models/Screenshot";
+import { Screenshot } from "../src/models/Screenshot";
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 

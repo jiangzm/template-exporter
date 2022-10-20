@@ -1,7 +1,7 @@
 import { describe } from "jest-circus";
 import handlebars from "handlebars";
-import { makeScreenshot } from "./screenshot";
-import { Screenshot } from "./models/Screenshot";
+import { makeScreenshot } from "../src/screenshot";
+import { Screenshot } from "../src/models/Screenshot";
 
 describe("beforeScreenshot", () => {
   let page;

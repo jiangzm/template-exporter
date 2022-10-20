@@ -9,6 +9,6 @@
     "outDir": "dist",
     "declaration": true
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "test/screenshot.spec.ts", "test/main.unit.spec.ts", "test/main.integration.spec.ts", "test/models/Screenshot.spec.ts"],
   "exclude": ["node_modules", "**/*.spec.ts"]
 }

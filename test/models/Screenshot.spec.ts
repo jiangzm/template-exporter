@@ -1,5 +1,5 @@
 import { describe } from "jest-circus";
-import { Screenshot } from "./Screenshot";
+import { Screenshot } from "../../src/models/Screenshot";
 
 describe("Screenshot", () => {
   const html = "<html><body>Hello world!</body></html>";

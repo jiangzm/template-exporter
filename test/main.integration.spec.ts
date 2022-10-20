@@ -4,7 +4,7 @@ import puppeteerCore from "puppeteer-core";
 import rimraf from "rimraf";
 import { createWorker } from "tesseract.js";
 
-import { nodeHtmlToImage } from "./main";
+import { nodeHtmlToImage } from "../src/main";
 
 describe("node-html-to-image", () => {
   let mockExit;
